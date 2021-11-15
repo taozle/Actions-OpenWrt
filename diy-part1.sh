@@ -21,4 +21,4 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 # replace default packages with ours
-sed -i 's/coolsnowwolf\/packages/taozle\/packages/g' feeds.conf.default
+sed -i 's/coolsnowwolf\/packages/Lienol\/openwrt-packages/g' feeds.conf.default
